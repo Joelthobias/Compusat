@@ -1,0 +1,57 @@
+.bg-dark-blue {
+    background-color: #00013c !important;
+    color: #ffff;
+    padding: .5em .5em .1em .5em;
+}
+.small-h {
+    font-size: 1rem;
+}
+.containero{
+    margin: .5em 23%;
+}
+a{
+    color: inherit;
+}
+.nav-itemo{
+    padding: 0 2em ; 
+    margin: 0;
+}
+.ht1{
+    padding: 30%;
+    font-size: 4em;
+}
+.ht1 > span{
+    font-size: 2rem !important;
+}
+.secone{
+    background-image: linear-gradient(to right bottom ,#fff,#775f93)
+}
+button{
+    outline: none;
+}
+button:hover{
+    outline: none;
+}
+@media(max-width:1080px){
+    .containero{
+        margin: .5em 10%;
+    }
+}
+@media(max-width:768px){
+    .ht1{
+        padding: 30%;
+        font-size: 2em;
+    }
+    .ht1 > span{
+        font-size: 1rem !important;
+    }
+}
+@media(max-width:568px){
+    .ht1{
+        padding: 30%;
+        font-size: 1.5em;
+    }
+    .ht1 > span{
+        font-size: .5rem !important;
+    }
+}
