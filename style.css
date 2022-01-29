@@ -5,6 +5,7 @@
 }
 .nav-item >.nav-link{
     color: #9655b2 !important;
+    font-weight: bolder;
 }
 .small-h {
     font-size: 1rem;
@@ -26,7 +27,7 @@ a:hover{
 .ht1{
     padding: 30%;
     font-size: 4em;
-    font-family: sans-seri;
+    font-family: 'Source Serif 4', sans-serif;
 }
 .ht1 > span {
 	font-size: 1.6rem !important;
@@ -53,14 +54,24 @@ background-color: #260550;
 color: #fff;
 }
 
-
+.ht2{
+    font-family: 'Ubuntu', sans-serif;
+}
 button.navbar-toggler.ml-auto.hidden-sm-up.float-xs-right:focus {
     outline: none!important;
+}
+.sectwo{
+    padding-bottom: 10rem;
 }
 
 @media(max-width:1080px){
     .containero{
         margin: .5em 10%;
+    }
+}
+@media(max-width:890px){
+    .ht1{
+        font-size: 3.5rem;
     }
 }
 @media(max-width:768px){
@@ -71,6 +82,9 @@ button.navbar-toggler.ml-auto.hidden-sm-up.float-xs-right:focus {
     .ht1 > span{
         font-size: 1rem !important;
         padding-left: 2px;
+    }
+    .main{
+        margin: 1rem;
     }
 }
 /* @media(max-width:568px){
