@@ -24,7 +24,7 @@ a{
     font-size: 2rem !important;
 }
 .secone{
-    background-image: linear-gradient(to right bottom ,#fff,#775f93)
+    background-image: linear-gradient(to right ,#fff,#775f93)
 }
 button{
     outline: none;
@@ -52,6 +52,6 @@ button:hover{
         font-size: 1.5em;
     }
     .ht1 > span{
-        font-size: .5rem !important;
+        font-size: .7rem !important;
     }
 }
