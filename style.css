@@ -110,6 +110,21 @@ color: #ab60ec;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
+.widgets_wrapper{
+  margin: 4rem;
+  padding: 4rem;
+  font-family: sans-serif;
+
+}
+.widget> h5{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.widget >p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 1.5em;
+  
+}
 @media(max-width:1080px){
     .containero{
         margin: .5em 10%;
