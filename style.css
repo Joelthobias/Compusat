@@ -101,6 +101,9 @@ color: #ab60ec;
 .f{
   font-size: 4em ;  
 }
+.f>p{
+  font-size: 1rem;
+}
 .ht3{
   background-image: linear-gradient(50deg,#440a76,#fff);
   background-size: 100%;

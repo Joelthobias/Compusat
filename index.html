@@ -23,7 +23,11 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin">
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
-        
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+            <script> 
+                AOS.init();
+            </script>
         <main class="main">
             <header>
                 <div class=" bg-dark-blue d-none d-lg-block">
@@ -65,13 +69,13 @@
             </header>
             <section class="secone">
                 <div class=" row container-fluid ">
-                    <div class="col-9 col-md-6">
+                    <div data-aos="fade-down" data-aos-duration="3000" class="col-9 col-md-6">
                         <h1 class="ht1">
                             <span>WE ARE</span>
                             <br>COMPUSAT
                         </h1>
                     </div>
-                    <div class="col-9 col-md-5 ml-auto my-auto">
+                    <div data-aos="fade-up" data-aos-duration="3000" class="col-9 col-md-5 ml-auto my-auto">
                         <img class="w-100 d-none d-md-block" src="imgs/1911.i126.029_video_bloggers_set-09-removebg-preview.png" alt="">
                         <img class="w-100 d-md-none ml-auto" src="imgs/s1527.png" alt=""></div>
                     </div>
@@ -88,12 +92,12 @@
             </section>
             <section class="sectwo ">
                 <div class="row mx-sm-auto container">
-                    <div class="col-11 col-md-4 ml-auto ">
+                    <div data-aos="zoom-in" data-aos-duration="3000" class="col-11 col-md-4 ml-auto ">
                         <p class="h1  ht2">
                             WHY US ?
                         </p>
                     </div>
-                    <div class="col-10 col-md-6 mx-auto">
+                    <div  data-aos="zoom-out" data-aos-duration="3000" class="col-10 col-md-6 mx-auto">
                         <p class="about ht2 mt-5 ">
                             We have established ourselves as the best recognised IT service brand. We provide high quality onsite and offline support. We have many satisfied clients availing our maintenance services since 1996. We found the wealth in satisfaction of our clients. 
                             Our ability to work together affects the quality of service our customer receives. To give the very best service to our customers and to each other, we rely on guidelines that made our culture great and makes us proud to be a best IT service provider.
@@ -101,26 +105,44 @@
                     </div>
                 </div>
             </section>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
+
+
             <section class="secthree mx-auto">
                 <div class="mx-auto">
                     <h1 class="font-weight-bold text-center mb-2 ht3">OUR SERVICES</h1>
                 </div>
                 <div class="line mx-auto mb-5"></div>
                 <div class="mx-auto row">
-                    <div class="f col-12 col-md-3 pt-5 pt-md-0 text-center ">
+                    <div data-aos="fade-up" data-aos-duration="3000" class="f  col-12 col-md-3 pt-5 pt-md-0 text-center ">
                         <i class="fas mx-auto 5x fa-network-wired"></i>
+                        <p>NETWORK SOLUTIONS</p>
                     </div>
-                    <div class="f col-12 col-md-3 pt-5 pt-md-0 text-center">
+                    <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000" class="f  col-12 col-md-3 pt-5 pt-md-0 text-center">
+
                         <i class="fas fa-shield-alt"></i>
+                        <p>SECURITY SOLUTIONS</p>
                     </div>
-                    <div class="f col-12 col-md-3 pt-5 pt-md-0 text-center">
+                    <div data-aos="zoom-out-right" data-aos-duration="3000" class="f col-12 col-md-3 pt-5 pt-md-0 text-center">
                         <i class="fas fa-shopping-basket"></i>
+                        <p>PRODUCT STORE</p>
                     </div>
-                    <div class="f col-12 col-md-3 pt-5 pt-md-0 text-center">
+                    <div data-aos="flip-left" data-aos-duration="3000" class="f  col-12 col-md-3 pt-5 pt-md-0 text-center">
                         <i class="fas fa-tools"></i>
+                        <p>TECH-SUPPORT</p>
                     </div>
                 </div>
             </section>
+            <script>
+                $(".forver").css({"left":"500px"}).animate({"left":"0px"}, "slow");
+
+
+            </script>
+            <!-- <style>
+                .forver{
+                    position: absolute;
+                } -->
+            </style>
             <footer>
                 <div class=" container-fluid widgets_wrapper center">
                     <div class="row">
