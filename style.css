@@ -84,7 +84,8 @@ border: solid white;
 padding: .5em;
 }
 .svg-inline--fa:hover {
-background-color: #440a76;
+background-image: linear-gradient(60deg,#260550,#715c83);
+
 
 }
 .ht3{
@@ -101,7 +102,7 @@ color: #ab60ec;
   font-size: 4em ;  
 }
 .ht3{
-  background-image: linear-gradient(45deg,#440a76,#fff);
+  background-image: linear-gradient(50deg,#440a76,#fff);
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
