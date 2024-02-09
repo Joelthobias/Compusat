@@ -24,10 +24,11 @@ a:hover{
     text-decoration: none;
     color: inherit  ;
 }
-.ht1{
-    padding: 30%;
-    font-size: 4em;
-    font-family: 'Source Serif 4', sans-serif;
+.ht1 {
+  padding: 30%;
+  font-size: 4em;
+  font-family: 'Source Serif 4', sans-serif;
+  font-weight: bold;
 }
 .ht1 > span {
 	font-size: 1.6rem !important;
